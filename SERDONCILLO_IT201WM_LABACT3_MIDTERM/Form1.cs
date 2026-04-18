@@ -49,7 +49,7 @@ namespace SERDONCILLO_IT201WM_LABACT3_MIDTERM
         }
         string EvaluateRisk(string riskLevel)
         {
-            return riskLevel; // Simply returns Safe, Moderate, or High Risk [cite: 61, 62]
+            return riskLevel; 
         }
 
         string GenerateDecision(string afford, double score, string risk)
